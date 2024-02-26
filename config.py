@@ -5,7 +5,7 @@ class Config():
         self.TOKEN = os.environ.get('DISCORD_TOKEN')
         self.PREFIX = "$"
         self.debug = False
-        self.debug_channel = 264550796039946242
+        self.debug_channel = 0 #Enter a channel id for debugging
         self.stable_url = "http://127.0.0.1:7860"
         self.tortoise_url = "http://127.0.0.1:8501"
         self.default_options = {
